@@ -12,7 +12,7 @@ const Download = () => {
                     <div className='relative mr-6 flex-540 max-xl:flex-280
                     max-lg:flex-256 max-md:flex-100'>
                         <div className='mb-10'>
-                            <img src="/images/xora.svg" alt="xora" width={160} height={55} />
+                            <img src="./images/xora.svg" alt="xora" width={160} height={55} />
                         </div>
 
                         <p className='body-1 mb-10 max-w-md'>Try it now for free on iOS, Android, PC, Web - whatever your flavour, we've got you covered</p>
@@ -26,7 +26,7 @@ const Download = () => {
                                         <span className='absolute -top-2 rotate-90'>
                                             <Marker />
                                         </span>
-                                        <img src={"/images/lines.svg"} alt="lines"  className='absolute size-13/20 object-contain'/>
+                                        <img src={"./images/lines.svg"} alt="lines"  className='absolute size-13/20 object-contain'/>
                                         <span className='download_tech-icon'>{icon}</span>
                                     </a>
                                 </li>
@@ -41,7 +41,7 @@ const Download = () => {
                                 <span className='download_preview-dot left-11 bg-s3'></span>
                                 <span className='download_preview-dot left-16 bg-p1/15'></span>
 
-                                <img src="/images/screen.jpg" alt="screen" width={855} height={655} className='rounded-xl'/>
+                                <img src="./images/screen.jpg" alt="screen" width={855} height={655} className='rounded-xl'/>
                             </div>
                         </div>
                     </div>
